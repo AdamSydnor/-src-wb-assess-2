@@ -1,0 +1,21 @@
+body {
+    font-family: sans-serif;
+    background-color: black;
+    color: white;
+}
+
+.margin2 {
+    margin-top: 20px;
+}
+
+.margin {
+    margin-top: 50px;
+}
+
+.tableborder {
+    border: 1px solid white;
+}
+
+.tablepadding {
+    padding: 5px;
+}

@@ -7,5 +7,59 @@
     <link rel="stylesheet" href="styles.css" />
   </head>
 
-  <body></body>
+  <body>
+    <form>
+      <div class="margin2">
+        <label>Character Name</label>
+        <input tpye="text" />
+      </div>
+      <div class="margin2">
+        <label>Jedi</label>
+        <input type="radio" name="light-or-dark" />
+        <label>Sith</label>
+        <input type="radio" name="light-or-dark" />
+      </div>
+      <div class="margin2">
+        <label>Lightsaber color:</label>
+        <select class="focus">
+          <option>Blue</option>
+          <option>Green</option>
+          <option>Red</option>
+          <option>Purple</option>
+        </select>
+        <div class="margin2 borderb">
+          <input type="submit" value="Submit" />
+        </div>
+      </div>
+    </form>
+    <table class="tableborder margin">
+      <thead>
+        <th class="tableborder tablepadding">Planet</th>
+        <th class="tableborder tablepadding">Environment</th>
+        <th class="tableborder tablepadding">Population</th>
+      </thead>
+      <tbody>
+        <tr>
+          <td class="tableborder tablepadding">Tatooine</td>
+          <td class="tableborder tablepadding">Desert</td>
+          <td class="tableborder tablepadding">200,000</td>
+        </tr>
+        <tr>
+          <td class="tableborder tablepadding">Hoth</td>
+          <td class="tableborder tablepadding">Ice</td>
+          <td class="tableborder tablepadding">0</td>
+        </tr>
+        <tr>
+          <td class="tableborder tablepadding">Endor</td>
+          <td class="tableborder tablepadding">Forest</td>
+          <td class="tableborder tablepadding">30,000,000</td>
+        </tr>
+        <tr>
+          <td class="tableborder tablepadding">Mustafar</td>
+          <td class="tableborder tablepadding">Lava</td>
+          <td class="tableborder tablepadding">10,000</td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
 </html>
