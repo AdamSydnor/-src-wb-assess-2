@@ -31,6 +31,18 @@
 // Ex.:
 //   buildWordChain(['zoo', 'sour', 'racket', 'octos']);
 //   => ['zoo', 'octos', 'sour', 'racket']
-function buildWordChain(words) {}
+function buildWordChain(words) {
+    const newArr = [];
+    newArr.push(words[0]);
+    for (const word of newArr) {
+        for (const compareWord of words) {
+            if (word[word.length - 1] === compareWord[0] && word !== compareWord) {
+                newArr.push(compareWord);
+                break;
+            };
+        };
+    };
+    return newArr;
+};
 
 export { buildWordChain };
